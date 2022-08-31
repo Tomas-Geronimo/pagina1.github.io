@@ -13,8 +13,8 @@ body{
 
 #header{
     
-    position: fixed;
-    z-index: 1000;
+    
+    
     width: 100%;
     height: 65px;
     display: flex;
@@ -73,11 +73,12 @@ body{
 }
 
 .contenedor{
-    
+    margin: 10px;
     text-align: center;
     overflow: hidden;
     flex-wrap: wrap;
     width: 100%;
+    height: 450;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,9 +87,7 @@ body{
 
 
 .contenedor  .info{
-   
-    padding-top: 100px;
-    height: 400px;
+    height: 150px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -112,7 +111,7 @@ body{
     flex-wrap: wrap;
     overflow: hidden;
     object-fit: cover;
-    width: 500px;
+    height: 300px;
 }
 
 
