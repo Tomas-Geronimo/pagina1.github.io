@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="import" href="img/descarga.jpg">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     
     <header id="header">
 
-        <div class="logo"> <img src="web-design.png" alt=""><h1>DevMyC</h1></div>
+        <div class="logo"> <img src="img/web-design.png" alt=""><h1>DevMyC</h1></div>
 
         <nav>
             <ul class="nav-links">
-                <li><a href="">Home</a></li>
-                <li><a href="">Modalidades</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="precios.html">Modalidades</a></li>
+                <li><a href="">Staff</a></li>
+                <li><a href="">Contacto</a></li>
+                <button class="btn-sin-in"><a href="sing-in.html">Iniciar Sesion</a></button>
             </ul>
-
-            <div class="menu"><img src="bars.png" alt=""></div>
+            <div class="menu"><img src="img/bars.png" alt=""></div>
         </nav>
 
         
@@ -29,13 +34,28 @@
     <main id="main">
         <div class="contenedor">
                 <div class="info">
-                    <h1>We design your Static and Dynamic page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum consectetur dolore quasi mollitia quaerat vitae autem, dicta saepe perspiciatis deserunt, odio natus laudantium. Accusamus cumque, vel eum quia sit commodi.</p>
+                    <h1>Te disañamos tu pagina estatica y dinamica a medida.</h1>
+                    <p>Contamos con un equipo de programadores y diseñadores,tanto en diseño ui ux y programacion front y back end. .</p>
                 </div>
-                <div class="img"> <img src="smartphone.jpg" alt=""></div>       
+                <div class="img"> <img src="img/smartphone.jpg" alt=""></div>       
         </div>
         
     </main>
+    <section id="contac-form">
+
+        <div class="info-form">
+            <h1>Mandanos cualquier consulta</h1>
+        </div>
+
+        <div class="form">
+            <form>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT"/>
+              </form>
+            </div>
+    </section>
     <footer id="footer">
         <div class="logo"> <img src="web-design.png" alt=""><h1>DevMyC</h1></div>
         <p>Copyright © 2022 DevMyC Inc. Todos los derechos reservados.</p>

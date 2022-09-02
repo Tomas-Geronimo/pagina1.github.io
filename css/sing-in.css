@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family:'Ubuntu', sans-serif;
+    size: 10px;
+}
+
+html,body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient( 90deg, lightpink 0%, lightskyblue 100%) ;
+    
+}
+
+.container{
+    max-width: 22rem;
+    width: 100%;
+    padding: 25px 30px;
+    position: relative;
+    top: 1em;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.8px);
+    -webkit-backdrop-filter: blur(15.8px);   
+}
+
+.brand{
+    
+    width: 16rem;
+    height: 7rem;
+}
+
+.tittle{
+    display: inline-block;
+    position: relative;
+    top: 0.5em;
+    left: 0.8em;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Silkscreen', cursive; 
+    text-shadow: -1px 0px 4px rgba(0,0,0,0.56);
+}
+.subtittle h2 .g100{color: #242424;}
+.subtittle h2 .u100{color: lightpink;}
+.subtittle h2 .a100{color: #242424;}
+.subtittle h2 .l{color: lightblue;}
+.subtittle h2 .e{color: #242424;}
+.subtittle h2 .g2{color: lightpink;}
+.subtittle h2 .u2{color: #242424;}
+.subtittle h2 .a2{color: lightblue}
+.subtittle h2 .y{color: #242424;}
+.subtittle h2 .c{color:lightpink;}
+.subtittle h2 .h{color: #242424;}
+.subtittle h2 .u3{color: lightblue;}
+
+/*.subtittle h2 .g100{color: #008000;}
+.subtittle h2 .u100{color: #12a14b;}
+.subtittle h2 .a100{color: #7fff00;}
+.subtittle h2 .l{color: #c8ff01;}
+.subtittle h2 .e{color: #ffa500;}
+.subtittle h2 .g2{color: #ff7b00;}
+.subtittle h2 .u2{color: #ff0000;}
+.subtittle h2 .a2{color: #e30052}
+.subtittle h2 .y{color: #8f008f;}
+.subtittle h2 .c{color:#9370d8;}
+.subtittle h2 .h{color: #0d5cb6;}
+.subtittle h2 .u3{color: #67d5fa;}
+*/
+.subtittle {
+    text-shadow: -1px 0px 4px rgba(0,0,0,0.56);
+    border-radius: 3px;
+    display: block;
+    top: 1.5rem;
+    left: 1em;
+    position: relative;
+    font-size: medium;
+    font-weight: 600;
+}
+
+img{
+    
+    display:inline-block;
+    position: relative;
+    top: -3.7em;
+    left: 12em;
+    width: 40%;    
+}
+
+form{
+    display: grid;
+    grid-column:auto;
+    justify-items: center;
+}
+.details{
+    font-family: sans-serif;
+    margin: 16px;
+    font-size: 13px;
+    font-weight: 600;  
+}
+
+.input-box{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    margin: 1rem;   
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin:  5px 0;
+    outline:none;
+    border: none;
+    background-color: #65aad83f;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.container form .input-btn {
+    width: 150px;
+
+}
+
+.container form .input-box .btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    background: #d86578 ;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 16px;
+    transition: 0.3s;
+    
+    
+}
+
+.container form .input-box .btn-submit:hover{
+    transform-origin: center;
+    transform:scale(95%);
+    background: #6567d8;
+    color: #000;
+ }
+
+ .register{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .register a {
+    
+    font-family:  ubuntu;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    
+    width: 100%;
+    background-color:transparent;
+    box-shadow: 10px 0px 15px 0px #0000002c; 
+}
+
+.f-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-logo img{
+    width: 40px;
+}
+
+.elements-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
+
+.elements-footer ul li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+.elements-footer ul li a{
+    font-family: sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1f1f1f;
+}
