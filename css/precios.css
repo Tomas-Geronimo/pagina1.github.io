@@ -145,8 +145,7 @@ body{
         
 
 .card{
-    position: relative;
-  background: white;
+    
     margin: 50px ;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
